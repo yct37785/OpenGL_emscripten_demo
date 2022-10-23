@@ -1,0 +1,1 @@
+emcc -lglfw opengl_demo/src/main.c -s LEGACY_GL_EMULATION=1 -sUSE_SDL=2 -lSDL2 -sUSE_SDL_IMAGE=2 -sSDL2_IMAGE_FORMATS=[\"png\"] -sUSE_LIBPNG -sUSE_ZLIB=1 -sUSE_LIBJPEG=1 -O2 -o hello.html --preload-file opengl_demo/data/qafoo.png
